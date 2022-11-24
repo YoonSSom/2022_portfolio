@@ -17,82 +17,8 @@
 - [GPT2활용 자동 문장 생성](https://github.com/YoonSSom/poetry_generator)(2022.05-06)
 ***
 ## **TextMining with ML**
-### [Repositories](https://github.com/YoonSSom/Text_mining_ML)
-### Introduction
-* 우크라사태가 한국 경제에 미치는 영향을 파악하기 위해 웹 크롤링한 신문기사에 워드 클라우드, 토픽 모델링 기법을 활용
-* 로지스틱 리그레션을 활용해 우크라사태 이전/이후 신문기사 내용의 감성 분석을 진행
-<br><br>
-### Data and Models
-* 네이버 웹툰 장르별 회차별 독자 참여 수치 19622건
-* 우크라사태 이전/이후 신문기사 제목 및 본문 2912건
-* TF-IDF / LDA / Logistic Regression
-<br><br>
-### Envs and Requirements
-* Google Colab, VScode
-* BeautifulSoup, Pandas, RE, KoNLPy, Scikit-Learn, Gensim, Matplotlib, Seaborn
-<br><br>
-### Progress
-* 웹 크롤링 및 텍스트 데이터 정제
-* 데이터 분석 및 시각화
-* 토큰화 및 코퍼스 사전 구축
-* 불용어 사전 및 사용자 사전 구축
-* TF-IDF 워드 클라우드
-* LDA 토픽 모델링
-* 바이그램 / 트라이그램 적용
-* 응집도 / 복잡도 기준 최적 에폭 및 토픽 갯수 설정
-* 로지스틱 리그레션을 활용한 감성 분석
-<br><br>
-### Reference
-* 텍스트마이닝을 위한 한국어 불용어 목록 연구 - 길호현
-* https://www.crummy.com/software/BeautifulSoup/
-* https://pandas.pydata.org/
-* https://konlpy.org/
-* https://radimrehurek.com/gensim/
-* https://scikit-learn.org/
-* https://www.pythoncheatsheet.org/   
-
-[Back to top](https://github.com/heokwon/Portfolio/blob/main/README.md#portfolio)
-***
-## **Distinguish Click-bait**
-### [Repositories](https://github.com/heokwon/Distinguish_Click-bait.git)
-### Introduction
-* 기사와 내용일 일치하지않은, 클릭을 유도하는 피시성 기사를 가리기 위해 진행한 프로젝트
-* 딥러닝을 이용해 기사의 내용을 간략하게 요약하고, 헤드라인과 비교
-<br><br>
-### Data and Models
-* 데이터 종류 : 신문기사
-* 데이터 형태 : 뉴스 택스트
-* 수량 : 원문데이터 30만건
-* 출처 : [Ai-Hub](https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=realm&dataSetSn=97)
-* model : mT5
-<br><br>
-### Envs and Requirements
-* Google Colab, VScode
-* Tensorflow, Hugging Face, Transformers, Pandas
-<br><br>
-### Progress
-* 데이터셋 구축
-* 데이터셋 정제
-* json -> dictionary
-* 데이터셋에서 제목, 원문, 추출요약, 생성요약 추출
-* transform AutoTokenizer 사용
-* Hugging Face 이용하여 모델 구축 - mT5 모델에 fine-tuning
-<br><br>
-### Referece
-* https://www.tensorflow.org/?hl=ko
-* https://huggingface.co/docs/transformers/index
-* https://pandas.pydata.org/
-* https://aihub.or.kr/
-<br><br>
-#### [Back to top](https://github.com/heokwon/Portfolio/blob/main/README.md#portfolio)
-***
-## **MUSINSA - Recommending Items**
-### [Repositories]()
-### 업데이트중
-#### [Back to top](https://github.com/heokwon/Portfolio/blob/main/README.md#portfolio)
-***
 ## **MUSINSA - Predicting Star-rate Using Review**
-### [Repositories](https://github.com/heokwon/NLP-MUSINSA/tree/main/Predicting%20Star-Rate%20Using%20Review)
+### [Repositories]([https://github.com/heokwon/NLP-MUSINSA/tree/main/Predicting%20Star-Rate%20Using%20Review](https://github.com/YoonSSom/MUSINSA))
 ### Introduction
 * 신뢰성을 가진 별점 예측을 통해 musinsa 입점브랜드에 관한 실질적 평가지표를 제시
 <br><br>
@@ -125,163 +51,10 @@ Generation Method - 키워드의 앞,뒤 상관관계 및 유사도를 기반하
 * https://www.tensorflow.org/?hl=ko
 * https://huggingface.co/docs/transformers/index
 <br><br>
-#### [Back to top](https://github.com/heokwon/Portfolio/blob/main/README.md#portfolio)
-***
-## **Survey-Analysis**
-### [Repositories](https://github.com/heokwon/Survey-analysis.git)
-### Introduction
-* 설문조사 분석
-* 데이터를 쉽게 해석하기 위한 시각화 작업
-* 데이터 분석을 위한 토픽모델링 및 LDA
-<br><br>
-### Data and Models
-* 농협 설문조사 자료 - 외주
-* TF-IDF, N-gram, LDA
-<br><br>
-### Envs and Requirements
-* Google Colab, Jupyter Notebook, Conda
-* Pandas, Matplotlib, Seaborn, Gensim, WordCloud, Re, KoNLPy
-<br><br>
-### Progress
-* 데이터프레임 정제
-* 원하는 데이터만을 추출하여 시각화
-* TF-IDF를 사용하여 단어 빈도수를 추출한 뒤 워드클라우드를 이용하여 시각화
-* TF-IDF, LDA를 통한 토픽 모델링
-* 바이그램 / 트라이그램 적용
-* 응집도 / 복잡도 기준 최적 에폭 및 토픽 갯수 설정
-* 설몬조사 플랫폼에 사용할 목적으로, 비슷한 양식의 또다른 설문조사 데이터를 집어넣어도   
-함수 한줄로 plot, wordcloud가 가능하도록 함수화 진행
-<br><br>
-### Referece
-* https://pandas.pydata.org/
-* https://konlpy.org/
-* https://radimrehurek.com/gensim/
-* https://scikit-learn.org/
-<br><br>
-#### [Back to top](https://github.com/heokwon/Portfolio/blob/main/README.md#portfolio)
-***
-## **Dog_Classification**
-### [Repositories](https://github.com/heokwon/Dog_Classification.git)
-### Introduction
-14종의 강아지 품종 이미지를 분류하는 모델 만들기<br>
-|Species|Label|Species|Label|
-|:-------:|:-----:|:-------:|:-----:|
-|코카스파니엘|1|삽살개|8|
-|푸들|2|시베리안 허스키|9|
-|그레이하운드|3|말라뮤트|10|
-|말티즈|4|닥스훈트|11|
-|퍼그|5|웰시코기|12|
-|비숑|6|리트리버|13|
-|진돗개|7|포메라니안|14|<br>
-<br>
-
-### Data and Model
-* Data
-  + Selenium을 통해 Naver와 Google에서 크롤링
-  + 총 14개의 label
-  + 11,289장 
-* Model
-  + ResNet50
-  + Transfer learning
-    - conv layer 일부 재학습(12층, 15층, 30층) + 분류기 학습
-    - Dropout
-  + Fine-tuning
-<br><br>
-### Envs and Requirements
-* Google Colab, VScode
-* Tensorflow, Selenium, Pickle, OpenCV, Matplotlib, Numpy, Sklearn
-<br><br>
-### Progress
-* Selenium을 통해 Naver와 Google에서 총 14품종의 강아지 이미지를 크롤링
-  + 팀원 한명당 2개 이상의 품종 크롤링
-  + 평균적으로 label당 100장의 이미지 크롤링, 총 11,289장
-* 이미지 전처리
-  + Resize
-  + Zero-centering
-  + Gray scale
-* 크롤링한 이미지를 Pickle로 저장
-  + 14개의 pickle을 병합
-* 학습
-  + model : ResNet50
-  + conv layer 일부 재학습 + 분류기 학습
-  + fine - tuning
-<br><br>
-### Results 
-||150x150, 10e|200x200, 10e|220x220,8e|
-|:--:|:-------:|:----------:|:--------:|
-|train accuracy|0.9260|0.9387|0.9312|
-|test accuracy|0.8136|0.8441|0.8539|
-|after fine-tuning||0.8565||<br>   
-<br>   
-
-* table 1) 이미지 사이즈 변화에 따른 성능 변화(gray scale, conv layer 15층 + 분류층 학습)
-  + 이미지가 커짐에 따라 확실히 정확도가 높아지는 것을 확인
-  + RAM에 부담이 안되는 크기에 정확도가 가장 컸던 200x200, 10e 만 fine-tuning진행
-  + accuracy가 조금 상승되는 것을 확인할 수 있음   
- <br>   
-
-||12층, Dropout(0.5) 1번|12층, Dropout(0.5) 2번|30층, Dropout(0.5) 1번|
-|:--:|:----------------:|:--------------------:|:--------------------:|
-|train accuracy|0.7837|0.9633|0.9922|
-|test accuracy|0.8667|0.8940|0.8887|
-|after fine-tuning|0.8760|0.8920|0.8920|<br>   
-<br>   
-
-* table 2) Model 수정에 따른 성능 변화(data > int화, 180x180, Gray scale X)
-  + Color image 사용(Gray scale X)
-  + Drop out, conv layer 학습하는 층수를 변경
-  + 최대 0.89까지 상승
-<br><br>
-### Reference
-* [https://selenium-python.readthedocs.io/index.html](https://selenium-python.readthedocs.io/index.html)
-* [https://keras.io/api/applications/resnet/](https://keras.io/api/applications/resnet/)
-* [https://docs.python.org/ko/3/library/pickle.html](https://docs.python.org/ko/3/library/pickle.html)
-#### [Back to top](https://github.com/heokwon/Portfolio/blob/main/README.md#portfolio)
-***
-## **DietService-Objectdetection**
-### [Repositories](https://github.com/heokwon/DietService-ObjectDetection.git)
-### Introduction
-* 현재 자기관리가 하나의 트랜드처럼 자리잡고있음
-
-* 운동만큼 식단의 중요성이 부각됨
-
-* 핸드폰 카메라 하나만으로 식단관리가 가능한 서비스가 있으면 어떨까 하는 생각에 시작한 프로젝트
-
-* Object Detection을 통해 음식을 인식하고 칼로리와 영양정보를 제공
-<br><br>
-### Data and Models
-* YOLO V4
-
-* 12,000개의 한식, 일식, 양식 이미지 데이터
-
-* 총 100개의 class
-
-* multiple food-item, single food-item으로 구성
-<br><br>
-### Envs and Requirements
-* Google Colab, VScode
-* Tensorflow, Glob, Shutil, Pillow, OpenCV, Darknet
-<br><br>
-### Progress
-* 데이터셋 구축
-
-* 데이터셋 정제   
-이미지 한 폴더에 모으기 - 각각의 클래스 폴더별로 이미지가 나뉘어있음   
-이미지 사이즈 정규화 - bbox 좌표 정규화
-
-* Train & Inference
-<br><br>
-### Referece
-* https://arxiv.org/abs/2004.10934
-* https://github.com/AlexeyAB/darknet
-* https://opencv.org/
-* https://pillow.readthedocs.io/en/stable/
-* https://www.tensorflow.org/?hl=ko
-<br><br>
-#### [Back to top](https://github.com/heokwon/Portfolio/blob/main/README.md#portfolio)
+#### [Back to top](https://github.com/YoonSSom/2022_portfolio/edit/main/README.md#2022_portfolio)
 ***
 ## **Car Damage Detection**
-### [Repositories](https://github.com/heokwon/CV-CarDamageDetection.git)
+### [Repositories](https://github.com/YoonSSom/CarDamage_Detection)
 ### Introduction
 * Semantic Segmentation을 이용한 자동차 파손부위 탐지   
 
@@ -355,10 +128,10 @@ HorizontaFlip, VerticalFlip, Blur, OpticalDistortion, Resize, RandomRotate90
 * Unet : U-Net: Convolutional Networks for Biomedical Image Segmentation
 * albumentation : https://albumentations.ai/
 <br><br>
-#### [Back to top](https://github.com/heokwon/Portfolio/blob/main/README.md#portfolio)
+#### [Back to top](https://github.com/YoonSSom/2022_portfolio/edit/main/README.md#2022_portfolio)
 ***
 ## **Kaggle Competition : HuBMAP + HPA - Hacking The Human Body**
-### Repositories - [Train & Inference](https://github.com/heokwon/KaggleCompetiton-Train-and-Inference.git), [Data Handling](https://github.com/heokwon/KaggleCompetiton-DataHandling.git)
+### [Repositories](https://github.com/YoonSSom/Kaggle)
 ### Introduction
 * Semantic Segmentation으로 HuBMAP 데이터셋을 학습하여 FTU를 찾는 대회
 * 점수를 높이기 위한 Dataset Handling
@@ -446,5 +219,5 @@ EfficientUnet b1, b3, b5 256x256, 512x512, 768x768 + UneSt(ResNeSt + Unet)101, 2
 * https://www.kaggle.com/code/thedevastator/converting-to-256x256
 * https://www.kaggle.com/code/e0xextazy/multiclass-dataset-768x768-with-stride-for-mmseg
 <br><br>
-#### [Back to top](https://github.com/heokwon/Portfolio/blob/main/README.md#portfolio)
+#### [Back to top](https://github.com/YoonSSom/2022_portfolio/edit/main/README.md#2022_portfolio)
 ***
