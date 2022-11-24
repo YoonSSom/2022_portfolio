@@ -1,19 +1,23 @@
 # 2022_portfolio
-### NLP(Natural Language Processing)
-* [TextMining with ML](https://github.com/heokwon/Portfolio#textmining-with-ml)(2022.04)
-* [Distinguish Click-bait](https://github.com/heokwon/Portfolio#distinguish-click-bait)(2022.05)
-* MUSINSA - [Recommending Items](https://github.com/heokwon/Portfolio#musinsa---recommending-items), [Predicting Star-rate Using Review](https://github.com/heokwon/Portfolio#musinsa---predicting-star-rate-using-review)(2022.06~07)
-* [Survey-Analysis](https://github.com/heokwon/Portfolio#survey-analysis)(2022.09)
+### OCR(Optical Character Recognition)
+- [한국어 메뉴판 OCR](https://github.com/YoonSSom/Korean_OCR)(2022.09-10)
+- [자동차 번호판 인식](진행 중)(2022.10)
 <br><br>
 ### CV(Computer Vision)
-* [Dog Classification](https://github.com/heokwon/Portfolio#dog_classification)(2022.04)
-* [DietService-ObjectDetection](https://github.com/heokwon/Portfolio#dietservice-objectdetection)(2022.04)
-* [Car Damage Detection](https://github.com/heokwon/Portfolio#car-damage-detection)(2022.07~08)
-* [Kaggel Competition : HuBMAP + HPA - Hacking The Human Body](https://github.com/heokwon/Portfolio#kaggle-competition--hubmap--hpa---hacking-the-human-body)(2022.08~09)
+- [Safe_Driving](https://github.com/YoonSSom/Safe_Driving)(2022.04)
+* [Car Damage Detection](https://github.com/YoonSSom/CarDamage_Detection)(2022.07-08)
+* [Kaggel Competition : HuBMAP + HPA - Hacking The Human Body](https://github.com/YoonSSom/Kaggle)(2022.08-09)
 <br><br>
+### NLP(Natural Language Processing)
+- [국민 청원 데이터 분석](https://github.com/YoonSSom/Text_mining_ML/blob/master/%EA%B5%AD%EB%AF%BC%EC%B2%AD%EC%9B%90%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B6%84%EC%84%9D(%EC%9B%8C%EB%93%9C%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C).ipynb)(2022.03)
+- [기업 동향 분석](https://github.com/YoonSSom/Text_mining_ML/blob/master/%EA%B8%B0%EC%97%85%EB%8F%99%ED%96%A5%EB%B6%84%EC%84%9D.ipynb)(2022.03)
+- [뉴스 기사 요약](https://github.com/YoonSSom/Text_mining_ML/blob/master/%EB%89%B4%EC%8A%A4%EA%B8%B0%EC%82%AC%EC%9A%94%EC%95%BD.ipynb)(2022.03)
+- [서울시 구별 범죄 분석](https://github.com/YoonSSom/Text_mining_ML/blob/master/%EC%84%9C%E1%84%8B%E1%85%AE%E1%86%AF%E1%84%89%E1%85%B5_%EB%B2%94%EC%A3%84_%EB%B6%84%EC%84%9D.ipynb)(2022.03)
+* MUSINSA - Recommending Items, [Predicting Star-rate Using Review](https://github.com/YoonSSom/MUSINSA)(2022.06-07)
+- [GPT2활용 자동 문장 생성](https://github.com/YoonSSom/poetry_generator)(2022.05-06)
 ***
 ## **TextMining with ML**
-### [Repositories](https://github.com/heokwon/Portfolio#survey-analysis)
+### [Repositories](https://github.com/YoonSSom/Text_mining_ML)
 ### Introduction
 * 우크라사태가 한국 경제에 미치는 영향을 파악하기 위해 웹 크롤링한 신문기사에 워드 클라우드, 토픽 모델링 기법을 활용
 * 로지스틱 리그레션을 활용해 우크라사태 이전/이후 신문기사 내용의 감성 분석을 진행
