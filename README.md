@@ -1,12 +1,12 @@
 # 2022_portfolio
 ### OCR(Optical Character Recognition)
-- [한국어 메뉴판 OCR](https://github.com/YoonSSom/Korean_OCR)(2022.09-10)
+- [한국어 메뉴판 OCR](https://github.com/YoonSSom/Korean_OCR)(2022.07)
 - [자동차 번호판 인식](진행 중)(2022.10)
 <br><br>
 ### CV(Computer Vision)
 - [Safe_Driving](https://github.com/YoonSSom/Safe_Driving)(2022.04)
-* [Car Damage Detection](https://github.com/YoonSSom/CarDamage_Detection)(2022.07-08)
-* [Kaggel Competition : HuBMAP + HPA - Hacking The Human Body](https://github.com/YoonSSom/Kaggle)(2022.08-09)
+* [Kaggel Competition : HuBMAP + HPA - Hacking The Human Body](https://github.com/YoonSSom/Kaggle)(2022.08)
+* [Car Damage Detection](https://github.com/YoonSSom/CarDamage_Detection)(2022.09)
 <br><br>
 ### NLP(Natural Language Processing)
 - [국민 청원 데이터 분석](https://github.com/YoonSSom/Text_mining_ML/blob/master/%EA%B5%AD%EB%AF%BC%EC%B2%AD%EC%9B%90%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B6%84%EC%84%9D(%EC%9B%8C%EB%93%9C%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C).ipynb)(2022.03)
