@@ -1,7 +1,7 @@
 # 2022_portfolio
 ### OCR(Optical Character Recognition)
 - [한국어 메뉴판 OCR](https://github.com/YoonSSom/Korean_OCR)(2022.07)
-- [자동차 번호판 인식](진행 중)(2022.10)
+- [자동차 번호판 인식](진행 중)(2022.11)
 <br><br>
 ### CV(Computer Vision)
 - [Safe_Driving](https://github.com/YoonSSom/Safe_Driving)(2022.04)
