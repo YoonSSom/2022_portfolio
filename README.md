@@ -5,7 +5,7 @@
 <br><br>
 ### CV(Computer Vision)
 - [Safe_Driving](https://github.com/YoonSSom/Safe_Driving)(2022.04)
-* [Kaggel Competition : HuBMAP + HPA - Hacking The Human Body](https://github.com/YoonSSom/Kaggle)(2022.08)
+* [Kaggel Competition : HuBMAP + HPA - Hacking The Human Body - segmentation](https://github.com/YoonSSom/Kaggle)(2022.08)
 * [Car Damage Detection](https://github.com/YoonSSom/CarDamage_Detection)(2022.09)
 <br><br>
 ### NLP(Natural Language Processing)
