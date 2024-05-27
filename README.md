@@ -1,3 +1,5 @@
+#(https://github.com/YoonSoM)
+
 # 2022_portfolio
 ### OCR(Optical Character Recognition)
 - [한국어 메뉴판 OCR](https://github.com/YoonSSom/Korean_OCR)(2022.07)
