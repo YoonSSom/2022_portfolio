@@ -1,4 +1,4 @@
-#(https://github.com/YoonSoM)
+# https://github.com/YoonSoM (메인 깃허브 주소)
 
 # 2022_portfolio
 ### OCR(Optical Character Recognition)
